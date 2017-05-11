@@ -15,7 +15,7 @@ Il ne reste qu'à brancher la carte avec le cable USB, comme un telephone portab
 
 ## Installation du module
 1. La première chose à faire est d'installer les capteurs dans les frigos et congelateurs. 
-Si necessaire, les capteurs peuvent être dévisé du bornier bleu pour faciliter l'installation. 
+Si necessaire, les capteurs peuvent être dévissé du bornier bleu pour faciliter l'installation. Passer le cable permet de faire un plus petit trou dans le joint du frigo. 
 Les capteurs peuvent être rebranché sur n'importe quel bornier, par contre il faut absolument respecter la couleur des cables (Rouge, Noir, Blanc).
 2. Ensuite il faut brancher la batterie sur l'Electron. Attention le connecteur blanc a un détrompeur, ça doit rentrer sans forcer.
 3. Enfin il faut brancher le cable USB sur une prise de courant.
