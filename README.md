@@ -1,4 +1,4 @@
-# Surveillance-Frigo
+# Surveillance Frigo
 
 ## Objectif
 Le module de surveillance frigo est une alarme pour detecter quand la temperature du frigo depasse un certain seuil. Un SMS est envoyé en cas d'alarme.
@@ -61,6 +61,12 @@ On peut envoyer des SMS au module. Il est programme pour répondre à certaines 
 * "LireTemperature": Le module renvoi la dernière mesure de temperature pour les 3 capteurs
 * "ConnecteCloud": Le module se connecte à internet. C'est utile pour pouvoir reprogrammer la carte à distance. Par défaut il est déconnecté, pour economiser de la batterie.
 * "DeconnecteCloud": Le module se deconnecte d'internet.
+
+|Commande|Action|
+|---|---|
+|LireTemperature|Le module renvoi la dernière mesure de temperature pour les 3 capteurs|
+|ConnecteCloud|Le module se connecte à internet. C'est utile pour pouvoir reprogrammer la carte à distance. Par défaut il est déconnecté, pour economiser de la batterie.|
+|DeconnecteCloud|Le module se deconnecte d'internet.|
 
 # Fonctions à terminer
 - [ ] Regler les seuils. Voir avec Basile
