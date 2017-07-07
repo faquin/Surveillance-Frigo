@@ -4,6 +4,7 @@
 Le module de surveillance frigo est une alarme pour detecter quand la temperature du frigo depasse un certain seuil. Un SMS est envoyé en cas d'alarme.
 
 ## Description des composants
+![Vue detaillée](Pictures/zoom_detaille.png)
 Tout tient dans le boitier dans lequel on trouve:
 * Une carte Electron de la marque Particle (https://www.particle.io/). C'est elle qui execute le programme et communique avec l'antenne telephonique
 * Une batterie pour alimenter l'Electron en cas de panne de courant
@@ -16,7 +17,7 @@ Il ne reste qu'à brancher la carte avec le cable USB, comme un telephone portab
 ## Installation du module
 1. La première chose à faire est d'installer les capteurs dans les frigos et congelateurs. 
 Si necessaire, les capteurs peuvent être dévissé du bornier bleu pour faciliter l'installation. Passer le cable permet de faire un plus petit trou dans le joint du frigo. 
-Les capteurs peuvent être rebranché sur n'importe quel bornier, par contre il faut absolument respecter la couleur des cables (Rouge, Noir, Blanc).
+Les capteurs peuvent être rebranché sur n'importe quel bornier, par contre il faut absolument respecter la couleur des cables (Bleu, Noir, Rouge).
 2. Ensuite il faut brancher la batterie sur l'Electron. Attention le connecteur blanc a un détrompeur, ça doit rentrer sans forcer.
 3. Enfin il faut brancher le cable USB sur une prise de courant.
 
@@ -70,7 +71,7 @@ On peut envoyer des SMS au module. Il est programme pour répondre à certaines 
 
 # Fonctions à terminer
 - [ ] Regler les seuils. Voir avec Basile
-- [ ] Ajouter photo module piour les LEDs et le branchement des capteurs
+- [x] Ajouter photo module pour les LEDs et le branchement des capteurs
 - [ ] Lisser les temperatures: en cas de depassement d'un seuil, refaire 3 mesures à 1min d'intervalle. Si c'est toujours trop chaud, alors envoyer le SMS. 3*1min suffisant quand Basile revient de Metro?
 - [ ] Gerer le cas d'une panne de capteur: on envoi un SMS? Une fois par jour seulement?
 - [ ] Changer le numéro de telephone pour mettre celui de Basile
